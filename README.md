@@ -21,4 +21,5 @@ The key contributions of this work include:
 - Analysis of **selectivity impact** on QUBO weight distribution and optimization performance.
 
 The approach improves algorithms performance for large problems and reduces hardware requirements while maintaining optimal join order solutions.
+
 ---
