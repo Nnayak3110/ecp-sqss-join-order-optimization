@@ -1,0 +1,4 @@
+num_of_CJ,num_qubits_ecp,num_qubits_before,reducn_qubits_perc,exp_run_ecp_sqss,exp_run_sqss,reducn_exp_runs_perc
+10,73,120,39.16,25,81,69.14
+10,70,120,41.67,25,81,69.14
+10,64,120,46.67,26,81,68.0
