@@ -1,0 +1,8 @@
+# Simulated annealing (D-Wave)
+dwave-neal==0.6.0
+
+# Gate-based quantum simulation (Qiskit)
+qiskit==0.45.1
+qiskit-terra==0.45.1
+qiskit-aer==0.12.0
+qiskit-optimization==0.5.0
