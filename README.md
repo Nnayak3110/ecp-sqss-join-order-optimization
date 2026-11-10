@@ -52,7 +52,7 @@ The evaluation covers connected inner joins. QUBO variable counts describe formu
 
 ## Citation
 
-If you use this code or these artifacts in your research, please cite the [arXiv preprint](https://arxiv.org/abs/2606.16247):
+If you use this code or these artifacts in your research, please cite work (https://doi.org/10.3390/info17111130):
 
 ```bibtex
 @Article{info17111130,
