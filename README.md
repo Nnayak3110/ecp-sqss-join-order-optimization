@@ -55,13 +55,17 @@ The evaluation covers connected inner joins. QUBO variable counts describe formu
 If you use this code or these artifacts in your research, please cite the [arXiv preprint](https://arxiv.org/abs/2606.16247):
 
 ```bibtex
-@misc{nayak2026ecpsqss,
-  title         = {Improved Join Order Optimization for Database Queries using Hybrid Quantum-Classical Approaches for {QUBO} Problems},
-  author        = {Nayak, Nitin and Winker, Tobias and Çalıkyılmaz, Umut and Groppe, Jinghua and Groppe, Sven},
-  year          = {2026},
-  eprint        = {2606.16247},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.DB},
-  doi           = {10.48550/arXiv.2606.16247}
+@Article{info17111130,
+AUTHOR = {Nayak, Nitin and Groppe, Sven and Winker, Tobias and Çalıkyılmaz, Umut and Groppe, And Jinghua},
+TITLE = {Improved Join Order Optimization for Database Queries using Hybrid Quantum-Classical Approaches for QUBO Problems},
+JOURNAL = {Information},
+VOLUME = {17},
+YEAR = {2026},
+NUMBER = {11},
+ARTICLE-NUMBER = {1130},
+URL = {https://www.mdpi.com/2078-2489/17/11/1130},
+ISSN = {2078-2489},
+ABSTRACT = {Efficient query optimization is crucial for relational database systems, especially for optimizing join orders in complex queries. This work introduces a hybrid approach that integrates Eliminating Cartesian Products (ECP) with splitting the QUBO search space (SQSS) to reduce the size of the QUBO problem, minimizing binary variables and constraints. This improves the performance of the quantum algorithm while lowering hardware requirements. We evaluate our method using real-world SQL queries from the ErgastF1 dataset on quantum and classical algorithms, including Quantum Annealing (QA), Simulated Annealing (SA), QAOA, and VQE, implemented on D-Wave’s Quantum Annealer and universal gate-based simulators. Additionally, we analyze the impact of selectivity and SQSS on QUBO weight distribution and algorithmic performance, highlighting optimization efficiency for QA and SA. Experimental results show consistent optimal join orders and enhanced query optimization for various selectivity conditions, and it also highlights the limitations of current quantum hardware for complex queries. This study further confirms the potential of hybrid quantum-classical methods for scalable quantum-enhanced database optimization.},
+DOI = {10.3390/info17111130}
 }
 ```
